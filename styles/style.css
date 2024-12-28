@@ -59,7 +59,6 @@ ol {
 
 .content {
   width: 1140px;
-  max-height: 534px;
   margin: 133px 30px;
   display: grid;
   row-gap: 16px;
@@ -89,7 +88,6 @@ ol {
   grid-area: search-form;
   display: flex;
   justify-content: space-between;
-  max-height: 54px;
 }
 
 .search-form__fieldset {
@@ -98,7 +96,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed sans-serif;
   font-size: 18px;
   font-weight: normal;
   line-height: 21.6px;
@@ -136,7 +134,7 @@ ol {
 }
 
 .search-form__label-text {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed sans-serif;
   font-size: 18px;
   font-weight: lighter;
   line-height: 21.6px;
@@ -144,22 +142,22 @@ ol {
 }
 
 .search-form__textfield {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
   text-align: left;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   border-left: none;
   border-right: none;
-  border-top: 1px solid rgba(255, 255, 255, 1);
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   background-color: transparent;
   width: 225px;
 }
 
 .button {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.6px;
@@ -185,7 +183,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald sans-serif;
   color: rgba(255, 255, 255, 1);
   font-size: 75px;
   font-weight: 700;
@@ -203,8 +201,8 @@ ol {
 .content__list-container {
   position: relative;
   height: 298px;
-  overflow-y: scroll;
-  overflow-x: visible;
+  overflow-y: auto;
+  overflow-x: auto;
   display: grid;
 }
 
@@ -239,7 +237,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
@@ -250,7 +248,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
