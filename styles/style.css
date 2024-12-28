@@ -200,9 +200,8 @@ ol {
   position: relative;
   height: 298px;
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: visible;
   display: grid;
-  width: 100%;
 }
 
 .content__list-item {
@@ -226,10 +225,11 @@ ol {
 .content__video-card {
   display: flex;
   align-items: start;
+  width: 390px;
 }
 
 .content__video-card-description-container {
-  width: 100%;
+  width: 196px;
   word-spacing: 0.2px;
 }
 
@@ -252,7 +252,6 @@ ol {
   text-align: left;
   text-transform: none;
   padding-top: 6px;
-  letter-spacing: 0.03em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -264,7 +263,6 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
-  flex-grow: 1;
 }
 
 .content__video-card-description-container {
@@ -292,13 +290,9 @@ ol {
 }
 
 .content__card-link:hover,
+.content__card-link:hover,
 .button:hover,
 .search-form__label:has(.search-form__pseudo-checkbox):hover {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.content__card-link:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
