@@ -18,7 +18,7 @@ html {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: start;
 }
 
 h1,
@@ -289,6 +289,7 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
 
 .content__card-link:hover,
 .button:hover,
